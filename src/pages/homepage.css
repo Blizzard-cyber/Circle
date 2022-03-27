@@ -1,0 +1,39 @@
+.search{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.friends{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;;
+    margin-bottom: 10px;
+}
+.photo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;;
+    margin-bottom: 10px;
+}
+.tags-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;;
+    margin-bottom: 20px;
+}
+.clear{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.comments{ 
+    margin-top: 20px;;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,69 @@
+.app{
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+/* gird布局试一下 */
+
+.content, .discovery{
+	width: 100%;
+	height: 100%; 
+	overflow: auto;
+}
+.discovery{
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+	grid-gap: 1px;
+  grid-auto-rows: minmax(150px, auto);
+}
+.discovery .cards{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: cyan;
+	color: #fff;
+	position: relative;
+}
+.cards .img{
+	width: 100%;
+	height: 100%;
+}
+.cards .footer{
+	position: absolute;
+	bottom: .5rem;
+	right: .5rem;
+}
+.cards .footer .adm-button{
+	background: transparent;
+}
+/* .home-hero > * {
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #333;
+	color: #fff;
+}
+.feature {
+	background-image: url(/uploads/161001/lighten2.jpg);
+	background-position: bottom left;
+	color: #fff;
+}
+.photos {
+	background-image: url(/uploads/161001/normal1.jpg);
+	color: #fff;
+}
+.news {
+	background-image: url(/uploads/161001/normal2.jpg);
+	color: #fff;
+}
+.special {
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/uploads/161001/normal3.jpg);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+} */
+/* .card img{
+	width: 50px;
+	height: 50px;
+	margin-top:5px
+} */
