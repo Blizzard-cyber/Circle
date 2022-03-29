@@ -4,7 +4,9 @@
 
 脚手架：React
 
-UI：AntD
+UI组件：Ant Design Mobile
+
+打包工具：webpack
 
 ## 功能实现TODO
 
